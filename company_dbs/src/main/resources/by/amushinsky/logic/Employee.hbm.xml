@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping 
+	PUBLIC "-//Hibernate/Hibernate Mapping DTD//EN" 
+	"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping> 
+	<class name="by.amushinsky.model.Employee" table="employee"> 
+		 <id name="id" type="int" column="id"> 
+		 	<generator class="native"/> 
+		 </id> 
+		 <property name="lname" column="lname" type="string"/>
+		 <property name="fname" column="fname" type="string"/>
+		 <property name="pname" column="pname" type="string"/>
+		 <property name="salary" column="salary" type="int"/>
+	</class> 
+</hibernate-mapping>
