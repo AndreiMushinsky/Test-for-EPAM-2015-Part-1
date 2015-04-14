@@ -59,6 +59,6 @@ sql-mode="STRICT_TRANS_TABLES,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION"
 Запускаем Tomcat. Собираем проект company_dbs с помощью maven. Копируем полученный war-файл в папку /webapps Tomcat'а, после чего он автоматически публикуются на сервере.
 
 Проверяем работу веб-сервиса:
-		http://localhost:8080/dbservice/
+		http://localhost:8080/company_dbs/
 В браузере должна появится строка "DataBase Access Service is working".
 //////////////////////////////////////////////////////////////////////////////////////////
